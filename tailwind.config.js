@@ -15,8 +15,9 @@ module.exports = {
       colors: {
         mainBg: "hsl(180, 52%, 96%)",
         altBg: "hsl(180, 31%, 95%)",
-        mainClr: "hsl(180, 8%, 52%)",
-        altClr: "hsl(180, 14%, 20%)"
+        mainClr: "hsl(180, 29%, 50%)",
+        altClr: "hsl(180, 8%, 52%)",
+        darkClr: "hsl(180, 14%, 20%)"
       }
     },
   },

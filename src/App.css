@@ -8,4 +8,57 @@
   html {
     font-family: 'League Spartan', sans-serif;
   }
+
+  .filter-search {
+    @apply w-full bg-white -translate-y-10 relative shadow-md rounded-md flex items-center flex-wrap;
+
+    min-height: 60px
+  }
+
+  .filter-search__input {
+    @apply w-auto h-full outline-none px-5 text-2xl me-auto
+  }
+
+  .brand-title {
+    @apply text-mainClr text-xl font-bold pt-2.5;
+  }
+
+  .job-title {
+    @apply text-3xl font-bold text-slate-800 hover:text-mainClr cursor-pointer transition
+  }
+
+  .tag {
+    @apply text-white font-bold uppercase px-3 py-1.5 leading-3 rounded-md;
+  }
+
+  .new-tag {
+    @apply bg-mainClr
+  }
+
+  .featured-tag {
+    @apply bg-slate-700
+  }
+
+  .card {
+    @apply flex flex-col items-start md:flex-row md:items-center bg-white px-8 p-5 rounded-xl shadow-xl shadow-cyan-300/20 border-mainClr transition;
+
+    min-height: 150px;
+  }
+
+  .brand-img {
+    @apply w-20 -mt-14 mb-5 md:my-0 md:w-full
+  } 
+
+  .tags {
+    @apply border-t pt-5 mt-5 md:p-0 md:m-0 md:border-none h-full flex flex-wrap items-center
+  }
+
+  .category {
+    @apply bg-altBg text-mainClr py-1.5 px-3 font-bold text-xl  cursor-pointer hover:bg-mainClr hover:text-altBg transition mx-2 my-2
+  }
+
+
+  li {
+    @apply p-2 text-xl text-altClr font-bold cursor-pointer hover:bg-altBg
+  }
 }
